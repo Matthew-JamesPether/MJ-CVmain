@@ -1,0 +1,195 @@
+/*Styles the image on the website*/
+#picture img {
+  width: 220px;
+  height: 150px;
+  border-radius: 98%;
+  border: 5px solid lightcoral;
+  position: relative;
+  left: 70px;
+}
+
+#imgGifZombie {
+  width: 35px;
+  height: 55px;
+  position: absolute;
+  left: 550px;
+  bottom: 530px;
+}
+
+#imgGifZombieGary {
+  position: absolute;
+  left: 1100px;
+  width: 200px;
+  height: 200px;
+}
+
+/*Styles the size of the webpage*/
+Body {
+  background-color: aliceblue;
+}
+Body #wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+/*Styles the information that falls under the id "profilePic"*/
+#profilePic {
+  width: 400px;
+  height: 1480px;
+  margin: 5px;
+  border-radius: 30px;
+  border-color: salmon;
+  border-style: solid;
+  padding: 30px;
+  float: left;
+  background-color: lightblue;
+  position: relative;
+  top: 25px;
+}
+#profilePic #theProjects ul li a {
+  color: black;
+  text-decoration: none;
+}
+#profilePic #theProjects ul li a:hover {
+  color: rgb(233, 8, 8);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*Styles the heading*/
+#theHeading {
+  width: 950px;
+  height: 50px;
+  float: left;
+  border-radius: 30px;
+  border-color: salmon;
+  border-style: solid;
+  background-color: lightblue;
+  color: salmon;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Franklin Gothic Medium, Arial;
+  position: relative;
+  bottom: 9px;
+}
+
+/*Styles the search bar and all the infomation related to the index*/
+#searchIndex {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  height: 110px;
+  position: relative;
+}
+
+/*Styles all the information related to the index*/
+#indexBox {
+  margin-top: -30px;
+  width: 950px;
+  height: auto;
+  position: relative;
+}
+#indexBox h4 {
+  text-align: center;
+}
+#indexBox ul {
+  display: flex;
+}
+#indexBox ul li {
+  font-size: 15px;
+  list-style: none;
+  padding: 0px 20px 0px 20px;
+}
+#indexBox ul li a {
+  text-decoration: none;
+  color: salmon;
+}
+#indexBox ul li a:hover {
+  color: rgb(233, 8, 8);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*Styles all the information related to the work experience*/
+#theExperience {
+  width: 900px;
+  height: 925px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: salmon;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: bisque;
+  /*Styles all the h4 headings on the webpage*/
+}
+#theExperience h4 {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+/*Styles the comment section*/
+#theComment {
+  width: 900px;
+  height: 280px;
+  border-style: solid;
+  border-color: salmon;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  padding: 30px;
+}
+#theComment #comment {
+  resize: none;
+}
+
+#menuList {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+#menuList li {
+  margin: 10px;
+}
+
+/*Styles all the h2 headings on the webpage*/
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Franklin Gothic Medium, Arial;
+}
+
+/*Styles all the p paragraphs on the webpage*/
+p {
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+/*Styles all the lists that appear on the webpage*/
+li {
+  text-align: left;
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+/*Styles the dates to be inline with the job headings*/
+.dates {
+  float: right;
+}
+
+/*references: https://youtu.be/wRNinF7YQqQ?si=UIyHZJK75A1WR895 
+                https://youtu.be/HGTJBPNC-Gw?si=rbu0uFG7g1TsSNI4
+                https://youtu.be/-C-qR1gziNc?si=NwCgGNe7NBM66Keo
+                CSSNotesForProfessionals.pdf*//*# sourceMappingURL=style.css.map */
