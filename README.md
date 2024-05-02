@@ -3,7 +3,7 @@
 This webpage is used to help display my skills and achievements whilst getting to know about who I am, what I like and what motivates me. It also provides links projects that I have recently done and to my other social media platforms.
 
 ## Table of Content
-* heading
+* Heading
 * Table of Content
 * Installation
 * Usage
